@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+.top img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px;
+    
+}
+.top{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    font-size: large;
+    display: flex;
+}
+.lower{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+}
+.top-left div{
+    height: 100%;
+    
+}
+.top-left{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#a1,#a2,#a3,#a4{
+    padding-top: 23px;
+}
+.lower-left div{
+    height: 100%;
+}
+.lower-left{
+    width: 100%;
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9,#d10,#d11,#d12,#d13{
+    padding-top: 10px;
+}
+.top-left div:hover{
+    background-color: rgba(7, 169, 110,255);
+    
+}
+.lower-left div:hover{
+    background-color: rgba(7, 169, 110,255);
+    
+    
+}
+.top-right{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+#pro{
+    width: 58px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    background-color: black;
+    border-radius: 30px;
+    border: 0px;
+}
+#get{
+    width: 120px;
+    height: 50px;
+    color: black;
+    font-size: medium;
+    background-color: #ffc0c8;
+    border-radius: 30px;
+    border: 0px;
+}
+#web{
+    width: 130px;
+    height: 50px;
+    color: black;
+    background-color: #fff3a8;
+    font-size: medium;
+    border: 0px;
+    border-radius: 30px;
+}
+#submit{
+    width: 120px;
+    height: 50px;
+    color: #d0fef7;
+    font-size: medium;
+    background-color: #04a96d;
+    border-radius: 30px;
+    border: 0px;
+    position: relative;
+    z-index: 1;
+    left: 25px;
+}
+#log{
+    width: 120px;
+    height: 50px;
+    color: black;
+    font-size: medium;
+    background-color: #d9ede1;
+    border-radius: 30px;
+    border: 0px;
+    position: relative;
+    right: 20px;
+}
+.top-right div input{
+    margin-right: 20px;
+}
+.lower-right i{
+    color: white;
+    margin-right: 35px;
+    font-size: 25px;
+}
+.lower-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#submit:hover{
+    background-color: green;
+}
+#log:hover{
+    background-color: rgb(15, 194, 15);
+}
+
